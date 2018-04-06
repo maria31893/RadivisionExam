@@ -1,0 +1,225 @@
+body{
+    overflow-x: hidden;
+}
+.header{
+    
+    background: url(imgs/coverPhoto.jpg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: white;
+   
+    
+}
+.header .overlay{
+   
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 3%;
+    padding-right: 20px;
+    
+}
+.header header{
+    color: #DF0101;
+    font-size: 50pt;
+    font-family: fantasy;
+}
+#signInBtn{
+    background-color: #DF0101;
+    float: right;
+    color: white;
+    font-size: 12pt;
+    font-family: sans-serif;
+    padding: 6px 20px 6px 20px;
+    margin-top: 20px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+h1{
+    clear: left;
+    padding-top: 10%;
+    padding-bottom: 15px;
+    font-size: 55pt;
+    font-weight:  900;
+}
+h3{
+    padding-bottom: 15px;
+}
+#headerBtn{
+    background-color: #DF0101;
+    border-width: 0px;
+    padding: 10px 30px 10px 30px;
+    margin-left: 0px;
+}
+.features{
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #151515;
+    font-size: 15pt;
+    text-align: center;
+    color: darkgrey;
+    border-bottom: 1px solid grey;
+    padding-bottom: 0px;
+}
+.features .container .row div:hover{
+    cursor: pointer;
+    color: white;
+}
+.features .container .row h4{
+    line-height: .5;
+}
+.tabsContent .row .tab-two{
+    display: none;
+}
+.tabsContent .row .tab-three{
+    display: none;
+}
+.tabsContent .row{
+    background-color: black;
+    
+}
+.selected {
+  color: white;
+    border-bottom: 5px solid #DF0101;
+    
+}
+.tabsContent .row .tab-one{
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+.tabsContent .row .tab-one h3{
+    color: white;
+    font-size: 20pt;
+    font-weight: 700;
+    padding-top: 10%;
+    line-height: 1.6;
+}
+.tabsContent .row .tab-one button{
+    background-color: #DF0101;
+    color: white;
+    border-width: 0px;
+    padding: 10px 30px 10px 30px;
+}
+.tab-two .watchAnywhereDesc{
+    padding-bottom: 50px;
+}
+.tab-two .watchAnywhereDesc h3{
+    color: white;
+    font-size: 21pt;
+}
+.tab-two .watchAnywhereDesc button{
+    float: right;
+    background-color: #DF0101;
+    border-width: 0px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    margin-top: 20px;
+    
+}
+.tabsContent .row .tab-two{
+    padding-top: 30px;
+    padding-bottom: 300px;
+}
+.tabsContent .row .tab-two h4{
+    color: white;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: 500;
+}
+.tabsContent .row .tab-two p{
+    color: lightgrey;
+    text-align: center;
+    font-size: 12pt;
+}
+.tabsContent .row .tab-three{
+    padding-bottom: 300px;
+}
+.tab-three h3{
+    color: white;
+    font-size: 23pt;
+    float: right;
+}
+.tab-three button{
+    float: left;
+    background-color: #DF0101;
+    border-width: 0px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    margin-top: 30px;
+    
+}
+.tabsContent .row .tab-three h3{
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    padding-top: 25px;
+}
+.tabsContent .row .tab-three button{
+    text-align: center;
+    margin-left: 43%;
+    margin-bottom: 60px;
+}
+table{
+    border-collapse: collapse;
+    margin: 10px 40px 10px 40px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 15px;
+    color: darkgray;
+}
+
+tr:nth-child(even) {background-color: transparent;}
+tr:nth-child(odd) {background-color: #151515;}
+tr:nth-child(1) {background-color: transparent;}
+
+.footer{
+    background-color: black;
+    color: darkgray;
+    line-height: 1;
+}
+#questions{
+    float: left;
+    margin-bottom: 20px;
+    
+}
+.footer #questions:hover{
+    cursor: pointer;
+    color: white;
+}
+.aboutUs{
+    float: left;
+}
+.footer h5{
+    padding-bottom: 10px;
+    clear: left;
+    float: left;
+}
+.footer h5:hover{
+    cursor: pointer;
+    color: white;
+    
+}
+.footer select{
+    background-color: transparent;
+    color: darkgray;
+    font-size: 12pt;
+    padding: 15px;
+    border-color: darkgray;
+    float: left;
+    margin-bottom: 2%;
+}
+.footer p{
+    float: left;
+    clear: left;
+}
